@@ -1,0 +1,8 @@
+C:\Users\Cat\AppData\Local\Temp\Rar$DIa0.155\obj\Debug\MyMovies.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.DataAccess\bin\Debug\MyMovies.DataAccess.dll
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.DataAccess\bin\Debug\MyMovies.DataAccess.pdb
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.DataAccess\bin\Debug\MyMovies.BusinessObject.dll
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.DataAccess\bin\Debug\MyMovies.BusinessObject.pdb
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.DataAccess\obj\Debug\MyMovies.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.DataAccess\obj\Debug\MyMovies.DataAccess.dll
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.DataAccess\obj\Debug\MyMovies.DataAccess.pdb

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Reviews>
+  <Review>
+    <id>1</id>
+    <movieId>2</movieId>
+    <text>okey</text>
+    <rating>4</rating>
+  </Review>
+</Reviews>

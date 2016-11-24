@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Delete</title>
+</head>
+<body>
+    <div ng-controller="MoviesController">
+        <table>
+            <tr>
+                <td>
+                    ID
+                </td>
+                <td>
+                    {{movie.id}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Title
+                </td>
+                <td>
+                    {{movie.title}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Image Src
+                </td>
+                <td>
+                    {{movie.imageSrc}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Seen
+                </td>
+                <td>
+                    {{movie.seen}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Delete" ng-click="deleteMovie()" />
+                    <input type="button" value="Cancel" ng-click="cancel()" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

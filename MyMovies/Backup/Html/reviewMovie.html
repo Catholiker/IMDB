@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Review Movie</title>
+    <script>
+
+
+    </script>
+</head>
+<body>
+    <div ng-controller="ReviewController">
+        <table>
+            <tr>
+                <td>
+                    Id
+                </td>
+                <td>
+                    {{review.id}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    movieId
+                </td>
+                <td>
+                    {{review.movieId}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    <input type="text" ng-model="review.text" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    rating
+                </td>
+                <td>
+                    <span class="star-rating">
+                        <input type="radio" class="radio" name="rating" value="1"><i></i>
+                        <input type="radio" class="radio" name="rating" value="2"><i></i>
+                        <input type="radio" class="radio" name="rating" value="3"><i></i>
+                        <input type="radio" class="radio" name="rating" value="4"><i></i>
+                        <input type="radio" class="radio" name="rating" value="5"><i></i>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Save" ng-click="saveReview()" />
+                    <input type="button" value="Cancel" ng-click="cancel()" />
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>

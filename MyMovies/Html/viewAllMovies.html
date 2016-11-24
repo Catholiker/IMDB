@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h2>Movies</h2>
+
+    <div ng-controller="MoviesController">
+        <h3>{{msg}}<h3>
+        <div ng-repeat="movie in movies" style="width:300px; float:left; margin-left:10px; margin-bottom:10px;">
+            <h2>{{movie.title}}</h2>
+            <img src="{{movie.imageSrc}}" width="300" height="500" />
+            <div style="text-align:center;">
+                <a href="#reviewMovie.html?movieid={{movie.id}}">{{movie.seen?'Seen':'Not Seen'}}</a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

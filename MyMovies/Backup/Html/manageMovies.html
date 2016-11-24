@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div ng-controller="MoviesController">
+        <table style="width:1024px;">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Image Src
+                </th>
+                <th>
+                    Seen
+                </th>
+                <th></th>
+            </tr>
+            <tr ng-repeat="movie in movies">
+                <td>
+                    {{movie.id}}
+                </td>
+                <td>
+                    {{movie.title}}
+                </td>
+                <td>
+                    {{movie.imageSrc}}
+                </td>
+                <td>
+                    {{movie.seen}}
+                </td>
+                <td>
+                    <a href="#updateMovie?Id={{movie.id}}" style="text-decoration:none;"><input type="button" value="Update" /></a>
+                    <a href="#deleteMovie?Id={{movie.id}}" style="text-decoration:none;"><input type="button" value="Delete" /></a>
+                </td>
+            </tr>
+        </table>
+        <a href="#createNewMovie">create</a>
+    </div>
+</body>
+</html>

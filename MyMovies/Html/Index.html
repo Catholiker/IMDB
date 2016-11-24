@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Index</title>
+    <script src="../Scripts/jquery-1.8.2.js"></script>
+    <link href="../Content/Site.css" rel="stylesheet" />
+    <link href="../Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../Content/css/Star.css" />
+    <script src="../Scripts/modernizr-2.6.2.js"></script>
+    <script src="../Content/AnagularJs/Library/Angular.js"></script>
+    <script src="../Content/AnagularJs/Library/angular-route.js"></script>
+    <script src="../Content/AnagularJs/App.js"></script>
+    <script src="../Content/AnagularJs/Services/MyMovieService.js"></script>
+    <script src="../Content/AnagularJs/Controllers/MoviesController.js"></script>
+    <script src="../Content/AnagularJs/Services/ReviewService.js"></script>
+    <script src="../Content/AnagularJs/Controllers/ReviewController.js"></script>
+    <script src="../Content/AnagularJs/Directives/UploadFile.js"></script>
+    
+</head>
+
+<body ng-app="MyMovies">
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/">Movie App</a>
+                </p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="#mainPage"> Home </a></li>
+                        <li><a href="#AllMovies">All Movies</a></li>
+                        <li><a href="#ManageMovies">Manage Movies</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+
+        <section ng-view class="content-wrapper main-content clear-fix"></section>
+    </div>
+
+
+    <script src="/Scripts/jquery-1.8.2.js"></script>
+
+
+
+    <!-- Visual Studio Browser Link -->
+    <script type="application/json" id="__browserLink_initializationData">
+        {"appName":"Firefox","requestId":"1c88ea620b0241da9adc70d6f8eae5a2"}
+    </script>
+    <script type="text/javascript" src="http://localhost:52100/d124b74a68c5421c9764986c0bc72756/browserLink" async="async"></script>
+    <!-- End Browser Link -->
+
+
+</body>
+
+<!--<body ng-app="MyMovies">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="nav">
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#AllMovies">All Movies</a></li>
+                    <li><a href="#ManageMovies">Manage Movies</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+</body>-->
+</html>

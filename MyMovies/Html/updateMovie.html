@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div ng-controller="MoviesController">
+        <table>
+            <tr>
+                <td>
+                    ID
+                </td>
+                <td>
+                    {{movie.id}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Title
+                </td>
+                <td>
+                    <input type="text" ng-model="movie.title" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Image Src
+                </td>
+                <td>
+                    <input type="file" id="file1" name="file" accept="image/*" multiple
+                           ng-files="getTheFiles($files)" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Seen
+                </td>
+                <td>
+                    <input type="checkbox" ng-model="movie.seen" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Update" ng-click="updateMovie()" />
+                </td>
+                <td>
+                    <input type="button" value="Cancel" ng-click="cancel()" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

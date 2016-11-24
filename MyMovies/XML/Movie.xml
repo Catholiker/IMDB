@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Movies>
+  <Movie>
+    <id>1</id>
+    <title>hei</title>
+    <imageSrc>4b88044c497a8c7b8c01bd6c13e23a57.jpg</imageSrc>
+    <seen>true</seen>
+  </Movie>
+  <Movie>
+    <id>2</id>
+    <title>Fast and</title>
+    <imageSrc>4b88044c497a8c7b8c01bd6c13e23a57.jpg</imageSrc>
+    <seen>True</seen>
+  </Movie>
+  <Movie>
+    <id>4</id>
+    <title>test</title>
+    <imageSrc>4b88044c497a8c7b8c01bd6c13e23a57.jpg</imageSrc>
+    <seen>true</seen>
+  </Movie>
+  <Movie>
+    <id>5</id>
+    <title>mov</title>
+    <imageSrc>95b83a082eb73ddc6e8758ca6e255b8d.jpg</imageSrc>
+    <seen>true</seen>
+  </Movie>
+  <Movie>
+    <id>6</id>
+    <title>do</title>
+    <imageSrc>200 (6).gif</imageSrc>
+    <seen>true</seen>
+  </Movie>
+</Movies>

@@ -1,0 +1,10 @@
+E:\SinglePageApplication\MyMovies\MyMovies.BusinessObject\obj\Debug\MyMovies.BusinessObject.csprojResolveAssemblyReference.cache
+E:\SinglePageApplication\MyMovies\MyMovies.BusinessObject\bin\Debug\MyMovies.BusinessObject.dll
+E:\SinglePageApplication\MyMovies\MyMovies.BusinessObject\bin\Debug\MyMovies.BusinessObject.pdb
+E:\SinglePageApplication\MyMovies\MyMovies.BusinessObject\obj\Debug\MyMovies.BusinessObject.dll
+E:\SinglePageApplication\MyMovies\MyMovies.BusinessObject\obj\Debug\MyMovies.BusinessObject.pdb
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.BusinessObject\bin\Debug\MyMovies.BusinessObject.dll
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.BusinessObject\bin\Debug\MyMovies.BusinessObject.pdb
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.BusinessObject\obj\Debug\MyMovies.BusinessObject.csprojResolveAssemblyReference.cache
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.BusinessObject\obj\Debug\MyMovies.BusinessObject.dll
+C:\Users\Cat\Downloads\SinglePageApplication\SinglePageApplication\MyMovies.BusinessObject\obj\Debug\MyMovies.BusinessObject.pdb
